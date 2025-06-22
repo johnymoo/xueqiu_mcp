@@ -60,6 +60,23 @@ uv --directory /path/to/xueqiu_mcp run main.py
 }
 ```
 
+在Trae里面配置MCP
+```
+{
+  "mcpServers": {
+    "xueqiu-mcp": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "/Users/chris/Project/MCP/xueqiu_mcp",
+        "run",
+        "main.py"
+      ]
+    }
+  }
+}
+```
+
 ## 功能特性
 
 - 获取股票实时行情
